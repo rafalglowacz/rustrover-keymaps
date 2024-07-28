@@ -70,6 +70,11 @@
     <keyboard-shortcut first-keystroke="tab" />
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="v" />
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+  </action>
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
     <keyboard-shortcut first-keystroke="ctrl comma" />
