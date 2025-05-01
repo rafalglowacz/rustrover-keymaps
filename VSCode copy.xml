@@ -4,10 +4,10 @@
     <keyboard-shortcut first-keystroke="shift alt back_space" />
   </action>
   <action id="EditorChooseLookupItem">
-    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="EditorChooseLookupItemReplace">
-    <keyboard-shortcut first-keystroke="alt y" />
+    <keyboard-shortcut first-keystroke="alt t" />
   </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
@@ -17,12 +17,18 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
   <action id="HideActiveWindow" />
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
   <action id="InsertInlineCompletionAction">
-    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
+  <action id="ManageRecentProjects">
+    <keyboard-shortcut first-keystroke="shift ctrl alt p" />
   </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="alt insert" />
@@ -32,7 +38,12 @@
     <keyboard-shortcut first-keystroke="tab" />
   </action>
   <action id="RecentProjectListGroup" />
+  <action id="ReformatWithPrettierAction" />
   <action id="SearchEverywhere.CompleteCommand">
     <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="SplitVertically" />
+  <action id="VcsGroups">
+    <keyboard-shortcut first-keystroke="alt g" />
   </action>
 </keymap>
