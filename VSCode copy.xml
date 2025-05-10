@@ -3,6 +3,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl z" />
     <keyboard-shortcut first-keystroke="shift alt back_space" />
   </action>
+  <action id="ActivateAIAssistantToolWindow">
+    <keyboard-shortcut first-keystroke="alt 6" />
+  </action>
   <action id="EditorChooseLookupItem">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
@@ -25,7 +28,7 @@
     <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
   <action id="InsertInlineCompletionAction">
-    <keyboard-shortcut first-keystroke="ctrl t" />
+    <keyboard-shortcut first-keystroke="right" />
   </action>
   <action id="ManageRecentProjects">
     <keyboard-shortcut first-keystroke="shift ctrl alt p" />
@@ -41,6 +44,9 @@
   <action id="ReformatWithPrettierAction" />
   <action id="SearchEverywhere.CompleteCommand">
     <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="ShowHoverInfo">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl k" />
   </action>
   <action id="SplitVertically" />
   <action id="VcsGroups">
